@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #040410;
+    color: white;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-left div {
+    width: 150px;
+    font-size: 24px;
+    font-weight: normal;
+    color: gold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    svg {
+        cursor: pointer;
+    }
+}
